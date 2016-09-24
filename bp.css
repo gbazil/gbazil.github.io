@@ -1,0 +1,38 @@
+body { font-family: sans-serif; margin: 0; background-color: White; }
+
+h1 { font-family: serif; }
+p.topic { font-size: 150%; font-family: serif; }
+
+a { color: Gray; text-decoration: none; }
+a:hover { color: Red; }
+
+body.SandyBrown { background-color: SandyBrown; color: Black; }
+body.SpringGreen { background-color: SpringGreen; color: Black; }
+body.Silver { background-color: Silver; color: Black; }
+body.LightSkyBlue { background-color: LightSkyBlue; color: Black; }
+
+td.SandyBrown { width: 25%; background-color: SandyBrown; color: Black; border-radius: 30px; cursor: pointer; }
+td.SpringGreen { width: 25%; background-color: SpringGreen; color: Black; border-radius: 30px; cursor: pointer; }
+td.Silver { width: 25%; background-color: Silver; color: Black; border-radius: 30px; cursor: pointer; }
+td.LightSkyBlue { width: 25%; background-color: LightSkyBlue; color: Black; border-radius: 30px; cursor: pointer; }
+
+img.restricted { max-width: 100%; max-height: 100%; }
+
+.darkglass {
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0px;
+}
+
+.popup {
+    margin: 5% 35%;
+    width: 30%;
+    height: 40%;
+    padding: 2%;
+    background-color: OldLace;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	 cursor: pointer;
+}

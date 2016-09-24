@@ -1,61 +1,64 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+п»ї<!DOCTYPE html>
 
-<HTML>
-<HEAD>
-<TITLE>Java Script</TITLE>
-<meta http-equiv='Content-Type' content='text/html; charset=windows-1251'>
-</HEAD>
-<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#800080">
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+<link rel='stylesheet' type='text/css' href='bp.css'>
+<script type='text/javascript' src='bp.js'></script>
+<title>bazil.pro</title>
+</head>
+<body>
 
-<h1>Java Script</h1>
+<table width=90% align=center>
+<tr><td><img src=images/logo.svg><td align=right><a href='javascript:show("about")'>About</a><td align=right><a title='Click to change language' href=ru/><img src=images/russia.png>
+</table>
 
-<script>
+<table cellspacing=20 cellpadding=20>
+<tr valign=top>
 
-function getClientSize() {
-	return "document.body.clientWidth = " + document.body.clientWidth + "\ndocument.body.clientHeight = " + document.body.clientHeight;
-}
+<td class=SandyBrown onclick='location.href="allpass.html"'>
+<h3>Allpass</h3>
+Allpass (Russian: Р Р°СЃРїР°СЃС‹) вЂ“ a game of вЂњdo not take bribesвЂќ for all players. The rules are very simple: no trump,
+you need to walk on the suit, no suit вЂ“ throw any card. It would seem that there is no problem: taking bribes
+as little as possible, under the partner card is necessary to put a smaller, but if not suit вЂ“ the other largest.
+Alas, this is not true.
+<img src=images/allpassicon.png vspace=30>
 
-function fullWindow() {
-	window.moveTo(0, 0);
-	window.resizeTo(screen.availWidth, screen.availHeight);
-}
+<td class=SpringGreen onclick='location.href="ttt.html"'>
+<h3>Tic Tac Toe BP</h3>
+The Tic-Tac-Toe game for the IPhone offered in the App Store is designated
+to help you to pass the time having the pleasure of enjoying a wave
+of nostalgia for carefree school days.
+<img src=images/ttticon.png vspace=30>
 
-function addToFavorites() {
-	if (navigator.appVersion.indexOf("MSIE") > 0) {
-		window.external.AddFavorite(location.href, document.title);
-	} else {
-		window.sidebar.addPanel(location.href, document.title, "");
-	}
-}
+<td class=Silver onclick='location.href="cc.html"'>
+<h3>Currency Calculator BP</h3>
+It is very easy to use calculator with the ability to simultaneously
+operate with different currencies. You set for yourself currency exchange rates.
+Internet connection is not required.
+<img src=images/ccicon.png vspace=30>
 
-// последовательная запись в документ
-document.write("Ваш браузер:");
-document.write("<br>appName = " + navigator.appName);
-document.write("<br>appCodeName = " + navigator.appCodeName);
-document.write("<br>appVersion = " + navigator.appVersion);
-document.write("<br>platform = " + navigator.platform);
-document.write("<br>cookieEnabled = " + navigator.cookieEnabled);
-document.write("<br>userAgent = " + navigator.userAgent);
+<td class=LightSkyBlue onclick='location.href="md.html"'>
+<h3>Mueller Dictionary</h3>
+English-Russian dictionary based on the wide known in USSR paper published
+dictionary by V.K.Mueller (Electronc Version by E.S.Cymbalyuk 1999 under GNU GPL ver.1.2).
+A network connection is not required.
+<img src=images/mdicon.png vspace=30>
+</table>
 
-var browser;
-
-if (navigator.appVersion.indexOf("MSIE") != -1) { browser = "Internet Explorer"; }
-else  { browser = "Not Internet Explorer"; }
-
-var info = "Screen = " + screen.width + "x" + screen.height
-		 + " (" + screen.availWidth + "x" + screen.availHeight + ")";
-</script>
-
-<p>
-<input type="button" name="Info" value="Info" onclick="alert(getClientSize())">&nbsp;
-<input type="button" name="Resize" value="Resize" onclick="fullWindow()">&nbsp;
-<input type="button" name="Ok" value="Ok" onclick="alert('Your browser is ' + browser)"><br>
+<div class=darkglass id=about style="display: none">
+<div class=popup onclick='show("about")'>
+<img class=restricted src=images/me.png><br>
+<h1>About</h1>
+<p class=topic>
+The Bazil.pro Company was founded in 1991, and has been providing quality software to the public ever since.
+Located in Moscow, employs over 1 people and does all kinds of awesome things for the World community.
 </p>
+<p align=center><a href=mailto:gbazil@gmail.com>В© bazil.pro 1991-2016</a></p>
+</div>
+</div>
 
-<a href="#"	onclick="this.style.behavior='url(#default#homepage)'; this.setHomePage('http://www.vostro.maind/'); return false;">Установить домашнюю страницу</a><br>
-<a href="javascript:addToFavorites()">Добавить в избранное</a>
-
-<p>The end.</p>
-
-</BODY>
-</HTML>
+<table border=0 align=center><tr>
+<td align=center nowrap><a href=mailto:gbazil@gmail.com>В© bazil.pro 1991-2016</a>
+</body>
+</html>
