@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<HTML>
+<HEAD>
+<TITLE>Java Script</TITLE>
+<meta http-equiv='Content-Type' content='text/html; charset=windows-1251'>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#800080">
+
+<h1>Java Script</h1>
+
+<script>
+
+function getClientSize() {
+	return "document.body.clientWidth = " + document.body.clientWidth + "\ndocument.body.clientHeight = " + document.body.clientHeight;
+}
+
+function fullWindow() {
+	window.moveTo(0, 0);
+	window.resizeTo(screen.availWidth, screen.availHeight);
+}
+
+function addToFavorites() {
+	if (navigator.appVersion.indexOf("MSIE") > 0) {
+		window.external.AddFavorite(location.href, document.title);
+	} else {
+		window.sidebar.addPanel(location.href, document.title, "");
+	}
+}
+
+// последовательная запись в документ
+document.write("Ваш браузер:");
+document.write("<br>appName = " + navigator.appName);
+document.write("<br>appCodeName = " + navigator.appCodeName);
+document.write("<br>appVersion = " + navigator.appVersion);
+document.write("<br>platform = " + navigator.platform);
+document.write("<br>cookieEnabled = " + navigator.cookieEnabled);
+document.write("<br>userAgent = " + navigator.userAgent);
+
+var browser;
+
+if (navigator.appVersion.indexOf("MSIE") != -1) { browser = "Internet Explorer"; }
+else  { browser = "Not Internet Explorer"; }
+
+var info = "Screen = " + screen.width + "x" + screen.height
+		 + " (" + screen.availWidth + "x" + screen.availHeight + ")";
+</script>
+
+<p>
+<input type="button" name="Info" value="Info" onclick="alert(getClientSize())">&nbsp;
+<input type="button" name="Resize" value="Resize" onclick="fullWindow()">&nbsp;
+<input type="button" name="Ok" value="Ok" onclick="alert('Your browser is ' + browser)"><br>
+</p>
+
+<a href="#"	onclick="this.style.behavior='url(#default#homepage)'; this.setHomePage('http://www.vostro.maind/'); return false;">Установить домашнюю страницу</a><br>
+<a href="javascript:addToFavorites()">Добавить в избранное</a>
+
+<p>The end.</p>
+
+</BODY>
+</HTML>
