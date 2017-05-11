@@ -1,7 +1,7 @@
 body { font-family: sans-serif; margin: 0; background-color: White; }
 
 h1 { font-family: serif; }
-p.topic { font-size: 150%; font-family: serif; }
+p.topic { font-size: 125%; font-family: serif; }
 
 a { color: Gray; text-decoration: none; }
 a:hover { color: Red; }
