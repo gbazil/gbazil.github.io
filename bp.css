@@ -1,20 +1,17 @@
-body { font-family: sans-serif; margin: 0; background-color: white; }
-
-h1 { font-family: serif; }
-p.topic { font-size: 125%; font-family: serif; }
+body { margin: 0; color: #15171A; font-family: Arial, Helvetica, sans-serif; }
 
 a { color: Gray; text-decoration: none; }
 a:hover { color: Red; }
 
-body.SandyBrown { background-color: SandyBrown; color: Black; }
-body.SpringGreen { background-color: SpringGreen; color: Black; }
-body.Silver { background-color: Silver; color: Black; }
-body.LightSkyBlue { background-color: LightSkyBlue; color: Black; }
+body.SandyBrown { background-color: SandyBrown; }
+body.SpringGreen { background-color: SpringGreen; }
+body.Silver { background-color: Silver; }
+body.LightSkyBlue { background-color: LightSkyBlue; }
 
-td.SandyBrown { width: 25%; background-color: SandyBrown; color: Black; border-radius: 30px; cursor: pointer; }
-td.SpringGreen { width: 25%; background-color: SpringGreen; color: Black; border-radius: 30px; cursor: pointer; }
-td.Silver { width: 25%; background-color: Silver; color: Black; border-radius: 30px; cursor: pointer; }
-td.LightSkyBlue { width: 25%; background-color: LightSkyBlue; color: Black; border-radius: 30px; cursor: pointer; }
+td.SandyBrown { width: 25%; background-color: SandyBrown; border-radius: 30px; cursor: pointer; }
+td.SpringGreen { width: 25%; background-color: SpringGreen; border-radius: 30px; cursor: pointer; }
+td.Silver { width: 25%; background-color: Silver;  border-radius: 30px; cursor: pointer; }
+td.LightSkyBlue { width: 25%; background-color: LightSkyBlue; border-radius: 30px; cursor: pointer; }
 
 img.restricted { max-width: 100%; max-height: 100%; }
 
@@ -34,5 +31,5 @@ img.restricted { max-width: 100%; max-height: 100%; }
     background-color: OldLace;
     border-radius: 30px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-	 cursor: pointer;
+    cursor: pointer;
 }
