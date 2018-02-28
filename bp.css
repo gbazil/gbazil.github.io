@@ -8,7 +8,7 @@ body.SpringGreen { background-color: SpringGreen; }
 body.Silver { background-color: Silver; }
 body.LightSkyBlue { background-color: LightSkyBlue; }
 
-td.SandyBrown { width: 25%; background-color: SandyBrown; border-radius: 30px; cursor: pointer; }
+td.SandyBrown { width: 25%; background-color: sandybrown; border-radius: 30px; cursor: pointer; }
 td.SpringGreen { width: 25%; background-color: SpringGreen; border-radius: 30px; cursor: pointer; }
 td.Silver { width: 25%; background-color: Silver;  border-radius: 30px; cursor: pointer; }
 td.LightSkyBlue { width: 25%; background-color: LightSkyBlue; border-radius: 30px; cursor: pointer; }

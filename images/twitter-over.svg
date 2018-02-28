@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0"
+   y="0"
+   width="315.226"
+   height="256.14"
+   viewBox="0, 0, 315.226, 256.14"
+   id="svg5"
+   sodipodi:docname="twitter-over.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata11">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview7"
+     showgrid="false"
+     inkscape:zoom="0.92137107"
+     inkscape:cx="157.61301"
+     inkscape:cy="128.07001"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg5" />
+  <g
+     id="Layer_1"
+     transform="translate(-42.939, -71.93)"
+     style="fill:#ff0000">
+    <path
+       d="M142.071,328.07 C261.025,328.07 326.088,229.518 326.088,144.053 C326.088,141.254 326.088,138.468 325.898,135.694 C338.555,126.538 349.482,115.203 358.165,102.217 C346.362,107.447 333.84,110.877 321.019,112.392 C334.519,104.31 344.624,91.597 349.452,76.62 C336.757,84.154 322.867,89.463 308.385,92.319 C288.337,71.002 256.482,65.784 230.681,79.592 C204.882,93.399 191.553,122.798 198.169,151.304 C146.168,148.696 97.719,124.135 64.879,83.732 C47.713,113.282 56.481,151.088 84.902,170.066 C74.609,169.761 64.542,166.984 55.548,161.971 C55.548,162.236 55.548,162.513 55.548,162.791 C55.557,193.577 77.258,220.092 107.434,226.189 C97.913,228.785 87.923,229.165 78.232,227.298 C86.704,253.644 110.985,271.692 138.654,272.212 C115.752,290.21 87.463,299.981 58.335,299.952 C53.189,299.942 48.048,299.63 42.939,299.019 C72.515,317.999 106.929,328.066 142.071,328.019"
+       fill="#808080"
+       id="path2"
+       style="fill:#ff0000" />
+  </g>
+</svg>
