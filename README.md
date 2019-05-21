@@ -1,3 +1,3 @@
-# bazil.pro
+# GBAZIL
 
 It works!
